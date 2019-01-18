@@ -1,0 +1,14 @@
+{
+  "name": "crud-backend",
+  "version": "1.0.0",
+  "description": "Backend para um sistema de CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json -- port 3001"
+  },
+  "author": "Jonathan Ramalho",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "0.13.0"
+  }
+}
